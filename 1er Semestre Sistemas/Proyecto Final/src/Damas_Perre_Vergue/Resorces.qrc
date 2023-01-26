@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bg.png</file>
+        <file>bg_game.jpg</file>
+        <file>Hada_White.png</file>
+        <file>Hada_White_Dama.png</file>
+        <file>Rebe_red.png</file>
+        <file>Rebe_red_Dama.png</file>
+        <file>Hadassah.png</file>
+        <file>Rebe.png</file>
+        <file>holder.png</file>
+    </qresource>
+</RCC>

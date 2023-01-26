@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>Assets/SF-Pro-Text-Bold.otf</file>
+        <file>Assets/SF-Pro-Text-Regular.otf</file>
+    </qresource>
+    <qresource prefix="/Icons">
+        <file>Assets/Icon.png</file>
+    </qresource>
+</RCC>
