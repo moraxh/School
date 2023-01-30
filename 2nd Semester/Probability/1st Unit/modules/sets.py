@@ -1,4 +1,4 @@
-def interseccion(A, B):
+def intersection(A, B):
     _A = A[:]
     _B = B[:]
     _C = []
@@ -29,7 +29,7 @@ def union(A, B):
     return _C
 
 
-def complemento(A, S):
+def complement(A, S):
     _A = A[:]
     _S = S[:]
 
@@ -40,7 +40,7 @@ def complemento(A, S):
 
     return _S
 
-def diferencia(A, B):
+def difference(A, B):
     _A = A[:]
     _B = B[:]
 
