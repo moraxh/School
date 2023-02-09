@@ -17,7 +17,7 @@ import random
 # 37 <= As Negro <= 39
 # 37 <= Negro <= 52
 
-vueltas = 10000000
+vueltas = 1000000
 carta   = 0
 
 as_rojo  = 0
