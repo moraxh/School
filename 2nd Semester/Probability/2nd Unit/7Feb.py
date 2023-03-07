@@ -13,18 +13,7 @@ def prom(nums):
     print(f"Su promedio es de { prom / len(nums) }")
     return prom / len(nums)
 
-def desviacion_estandar(nums, prom):
-    suma = 0
-    for i in range(len(nums)):
-        x = nums[i] - int(prom)
-        suma += numpy.power(x ,2)
-
-    de = numpy.sqrt(suma / (len(nums)))
-
-    print(f"Tiene una desviacion estandar de {de}")
-
-x = numpy.random.logistic(loc=70, scale = 2.5, size = 100)
-desviacion_estandar(x, prom(x))
+x = numpy.random.logistic(loc=70, scale = 5, size = 100)
 
 # Cuantos alumnos tienen una calificacion entre 60 y 80
 entra_rango = 0
